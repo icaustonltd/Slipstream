@@ -1,0 +1,45 @@
+body {
+  background-color: #000;
+  margin-top: 70px;
+}
+
+h1, h2, h3, h4 { color: orange;}
+
+
+/* Classes */
+
+.panel-default { background: #3a3a3a; color: #fff; }
+
+.logo { padding: 5px 20px 0px 10px; }
+
+.panel-search { padding: 0px 20px 0px 0px; }
+
+.btn-success { background-color: orange; }
+
+.contact-us { color: #fff; text-align: right; margin-top: 15px; }
+
+.btn-social-icon { margin-right: 30px; margin-top: 30px; }
+
+.thumbnail{  
+    float:left;  
+    position:relative;
+} 
+
+.post-content {  
+    position: absolute; 
+    bottom: 0px;  
+    left: 0px;  
+    width: 100%;  
+    opacity: 0.6; /* transparency */  
+    filter: alpha(opacity=60); /* IE transparency */
+    background-color: white;  
+    color: black;
+}
+
+.post-content {  
+    padding: 10px;  
+    margin: 0px;  
+}  
+
+
+
