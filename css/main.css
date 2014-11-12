@@ -1,5 +1,5 @@
 body {
-  background-color: #000;
+  background-color: #eaeaea;
   margin-top: 70px;
 }
 
@@ -24,6 +24,10 @@ h1, h2, h3, h4 { color: orange;}
     float:left;  
     position:relative;
 } 
+
+.panel { background-color: #cccccc; }
+
+.panel-carousel { background-color: #ffffff; margin-bottom: 40px; }
 
 .post-content {  
     position: absolute; 
