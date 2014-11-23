@@ -1,0 +1,9 @@
+<img class="img-responsive" src="img/slipstream_logo.gif" alt="Slipstream Digital logo" title="Slipstream Digital" />
+
+<!--<picture> -->
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <!--<source srcset="img/slipstream_logo.gif" media="(min-width: 1000px)">
+    <source srcset="img/slipstream_logo.gif, img/slipstream_logo.gif 2x" media="(min-width: 800px)">-->
+    <!--[if IE 9]></video><![endif]-->
+    <!--<img srcset="img/slipstream_logo.gif" alt="Slipstream Digital">
+</picture>-->

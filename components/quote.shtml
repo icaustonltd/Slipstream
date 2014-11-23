@@ -1,0 +1,13 @@
+<div class="panel panel-quote">
+    <div class="panel-body">
+
+        <h2>Our Approach:</h2>
+        <p>We work closely with you to help you hit your business goals.</p> 
+        <p class="quote-author">Andy Mckenna</p>
+
+        <div class="panel-cta">
+        	<a href="#">Read more</a>	
+        </div>
+
+    </div>
+</div>

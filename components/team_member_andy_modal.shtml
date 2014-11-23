@@ -1,0 +1,21 @@
+<div class="thumbnail">
+    <a href="#" data-toggle="modal" data-target="#andyModal"><img class="img-responsive" src="img/the_team/andy.jpg"></a>
+        <div class="post-content" id="promo2Content">
+            <h4 class="caption">Andy Mckenna</h4>
+        </div>
+</div>
+
+<div class="modal fade" id="andyModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+            <h4 class="modal-title" id="myModalLabel">A-Dawg</h4>
+            </div>
+            <div class="modal-body">
+                <p>Andy likes pancakes, toasting marshmellows and home cooked apple pie.</p>
+
+            </div>
+        </div>
+    </div>
+</div>

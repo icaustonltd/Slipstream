@@ -1,0 +1,15 @@
+<div>
+    <img class="img-responsive promo-image" src="img/office/office_five.jpg">
+
+    <div class="pull-right promo-image-button">
+    	<a class="more-info" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">+</a>
+    </div>
+</div>
+
+<div id="collapseOne" class="panel-body panel-collapse collapse" style="background-color: #ffffff;">
+        <h4>Content Header</h4>
+        <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
+        <div class="panel-cta">
+        	<a href="#">Link to content</a>	
+        </div>
+</div>

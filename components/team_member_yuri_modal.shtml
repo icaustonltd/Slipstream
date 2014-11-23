@@ -1,0 +1,20 @@
+<div class="thumbnail">
+    <a href="#" data-toggle="modal" data-target="#yuriModal"><img class="img-responsive" src="img/the_team/yuri.jpg"></a>
+        <div class="post-content" id="promo1Content">
+            <h4 class="caption">Yuri Gandamihardja</h4>
+        </div>
+</div>
+
+<div class="modal fade" id="yuriModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+            <h4 class="modal-title" id="myModalLabel">G-Dawg</h4>
+            </div>
+            <div class="modal-body">
+                <p>Yuri likes pancakes, toasting marshmellows and home cooked apple pie.</p>
+            </div>
+        </div>
+    </div>
+</div>

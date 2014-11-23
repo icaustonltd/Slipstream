@@ -1,31 +1,87 @@
+/* Start Fonts */
+
+@import url("//hello.myfonts.net/count/2be725");
+  
+@font-face { font-family: 'FoobarPro-Regular';src: url('webfonts/2BE725_0_0.eot');src: url('webfonts/2BE725_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2BE725_0_0.woff') format('woff'),url('webfonts/2BE725_0_0.ttf') format('truetype');}
+
+/* End Fonts */
+
+
 body {
   background-color: #eaeaea;
   margin-top: 70px;
 }
 
-h1, h2, h3, h4 { color: orange;}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 { color: 000000; }
+
+h1, h2, h3 { font-family: FoobarPro-Regular; }
 
 
 /* Classes */
 
+/* Start Nav bar Classes */
+
+.navbar-nav{
+    background-color: orange;    
+}
+
+.nav li { padding: 0px 20px 0px 20px; font-family: FoobarPro-Regular; }
+
+.navbar-default .navbar-nav > li > a { color: #ffffff; }
+
+.navbar-default .navbar-nav > li { border-right-width: 1px; border-right-color: #eaeaea; border-right-style: solid; }
+
+.active { background-color: #e7e7e7; }
+
+.navbar-default { background-color: #eaeaea; }
+
+/* End Nav bar Classes */
+
+/* Start Panel Classes */
+
+.panel { background-color: #cccccc; }
+
+.quote-author { font-size: 18px; }
+
+.panel-carousel { background-color: #ffffff; margin-bottom: 40px; }
+
+.panel-cta { text-transform: uppercase; background-color: orange; padding: 10px 0px 10px 20px; color: #ffffff;}
+
+.panel-cta a { color: #ffffff; font-weight: bold; }
+
 .panel-default { background: #3a3a3a; color: #fff; }
 
-.logo { padding: 5px 20px 0px 10px; }
+.promo-image, .panel-quote { border-bottom-width: 4px; border-bottom-color: orange; border-bottom-style: solid; }
+
+.promo-image-button { position: absolute; bottom: 0px; right: 15px; background-color: orange; padding: 16px 25px 16px 25px; }
+
+.promo-image-button > a { font-weight: bold; color: #ffffff; font-size: 20px; }
+
+.promo-image-button > a:hover { font-weight: bold; color: #ffffff; font-size: 20px; text-decoration: none; }
+
+.panel-quote { background-color: #ffffff; min-height: 274px; }
+
+.panel-quote > .panel-body > h2 { text-align: left; }
+
+.panel-quote > .panel-body > p { font-size: 18px; }
 
 .panel-search { padding: 0px 20px 0px 0px; }
+
+/* End Panel Classes */
 
 .btn-success { background-color: orange; }
 
 .contact-us { color: #fff; text-align: right; margin-top: 15px; }
 
-.thumbnail{  
+.thumbnail .promo-image {  
     float:left;  
     position:relative;
 } 
 
-.panel { background-color: #cccccc; }
-
-.panel-carousel { background-color: #ffffff; margin-bottom: 40px; }
 
 .post-content {  
     position: absolute; 
@@ -72,6 +128,4 @@ h1, h2, h3, h4 { color: orange;}
     width: 68px;
     height: 68px;
 }
-
-
 

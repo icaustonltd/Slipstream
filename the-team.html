@@ -1,95 +1,22 @@
 
-<!doctype html>
-<html lang="en">
-    <head>
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <meta charset="utf-8">
-            <title>Slipstream Digital</title>
-            <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-            <link rel="stylesheet" type="text/css" href="css/main.css">
-            <link href="css/font-awesome.css" type="text/css" rel="stylesheet">
-            <link href="css/docs.css" type="text/css" rel="stylesheet" >
-            <link href="css/bootstrap-social.css" type="text/css" rel="stylesheet">
-    </head>
+<!--#include virtual="/components/html_head.shtml" -->
 
     <body>
     <div id="page">
-        <header class="container">
-            <div id="menu" class="navbar navbar-default navbar-fixed-top">
-                <div class="navbar-header">
-                    <div class="button-group">
-                        <button type="button" class="btn btn-success navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-                            Menu <span class="glyphicon glyphicon-chevron-down"></span>
-                        </button>
-                    </div>
-                    <div class="logo">
-                        <a href="/"><h4>SD</h4></a>
-                    </div>
-                </div>
-                <div id="navbar-collapse" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="nav"><a href="index.html">Home</a></li>
-                        <li class="nav active"><a href="#">The Team</a></li>
-                        <li class="nav"><a href="our-work.html">Our Work</a></li>
-                        <li class="nav"><a href="our-approach.html">Our Approach</a></li>
-                        <li class="nav"><a href="blog.html">Blog</a></li>
-                        <li class="nav"><a href="contact-us.html">Contact Us</a></li>
-                    </ul>
-                    <form role="search" class="navbar-form navbar-right">
-                        <div class="form-group">
-                            <div class="panel-search">
-                                <input type="text" placeholder="Search" class="form-control">
-                            </div>    
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </header>
+        
+        <!--#include virtual="/components/navigation.shtml" -->
 
-        <section id="body" class="container-black">
-            <section id="main" class="col-md-12">
+        <section id="body" class="container">
+            <section id="main" class="starter-template">
             
             <!-- start row one -->
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-12">
                     
-                    <div class="panel">
-                        <div class="panel-body">
-
-                            <img class="img-responsive" src="img/slipstream_logo.gif" alt="Slipstream Digital logo" title="Slipstream Digital" />
-
-                            <!--<picture> -->
-                                <!--[if IE 9]><video style="display: none;"><![endif]-->
-                                <!--<source srcset="img/slipstream_logo.gif" media="(min-width: 1000px)">
-                                <source srcset="img/slipstream_logo.gif, img/slipstream_logo.gif 2x" media="(min-width: 800px)">-->
-                                <!--[if IE 9]></video><![endif]-->
-                                <!--<img srcset="img/slipstream_logo.gif" alt="Slipstream Digital">
-                            </picture>-->
-                            
-                        </div>
+                    <div class="panel-carousel">
+                        <img class="img-responsive" src="img/header.png" alt="First Slide" />
                     </div>
-
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <h2>Slipstream Digital</h2>
-                            <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-md-9">
-
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-
-                            <div class="thumbnail">
-                                <img class="img-responsive" src="img/the_team_2.jpg">
-                            </div>
-
-                        </div>
-                    </div>
-
+          
                 </div>
             </div>
             <!-- end row one -->
@@ -97,51 +24,36 @@
             <!-- start row two -->
             <div class="row">
                 
-                <div class="col-md-4">
+                <div class="col-sm-4 col-md-4">
 
                     <div class="panel">
                         <div class="panel-body">
 
-                            <div class="thumbnail">
-                                <a href="#" data-toggle="modal" data-target="#yuriModal"><img class="img-responsive" src="img/the_team/yuri.jpg"></a>
-                                    <div class="post-content" id="promo1Content">
-                                        <h4 class="caption">Yuri Gandamihardja</h4>
-                                    </div>
-                            </div>
+                            <!--#include virtual="/components/team_member_yuri_modal.shtml" -->   
 
                         </div>
                     </div>
 
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-sm-4 col-md-4">
 
                     <div class="panel">
                         <div class="panel-body">
 
-                            <div class="thumbnail">
-                                <a href="#" data-toggle="modal" data-target="#andyModal"><img class="img-responsive" src="img/the_team/andy.jpg"></a>
-                                    <div class="post-content" id="promo2Content">
-                                        <h4 class="caption">Andy Mckenna</h4>
-                                    </div>
-                            </div>
+                            <!--#include virtual="/components/team_member_andy_modal.shtml" -->
 
                         </div>
                     </div>
 
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-sm-4 col-md-4">
 
                     <div class="panel">
                         <div class="panel-body">
 
-                            <div class="thumbnail">
-                                <a href="#" data-toggle="modal" data-target="#ianModal"><img class="img-responsive" src="img/the_team/ian.jpg"></a>
-                                    <div class="post-content" id="promo3Content">
-                                        <h4 class="caption">Ian Causton</h4>
-                                    </div>
-                            </div>
+                            <!--#include virtual="/components/team_member_ian_modal.shtml" -->
 
                         </div>
                     </div>
@@ -150,97 +62,93 @@
 
             </div>
             <!-- end row two -->
+
+            <!-- start row three -->
+            <div class="row">
+                <div class="col-sm-4 col-md-4">
+
+                    <div class="panel">
+                        <div class="panel-body">
+
+                            <h2>Find out why we rock and you suck!</h2>
+                            <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-4">
+                    
+                    <div class="panel">
+                        <div class="panel-body">
+
+                            <!--#include virtual="/components/thumbnail_two.shtml" -->
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-4 col-md-4">
+
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+
+                            <!--#include virtual="/components/thumbnail_one.shtml" -->
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- end row three -->
+
+            <!-- start row four -->
+            <div class="row">
+                
+                <div class="col-sm-4 col-md-4">
+
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+
+                            <!--#include virtual="/components/thumbnail_one.shtml" -->
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-4 col-md-4">
+                    
+                    <div class="panel">
+                        <div class="panel-body">
+
+                            <!--#include virtual="/components/promo.shtml" -->
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-4 col-md-4">
+
+                    <div class="panel">
+                        <div class="panel-body">
+
+                            <h2>Find out why we rock and you suck!</h2>
+                            <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- end row four -->
             
             </section>
 
         </section>
         <hr />
 
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-3">
-                    <a class="btn btn-social-icon btn-facebook">
-                        <i class="fa fa-facebook"></i>
-                    </a>
-                    <a class="btn btn-social-icon btn-twitter">
-                        <i class="fa fa-twitter"></i>
-                    </a>
-                    <a class="btn btn-social-icon btn-google-plus">
-                        <i class="fa fa-google-plus"></i>
-                    </a>
-                    <a class="btn btn-social-icon btn-linkedin">
-                        <i class="fa fa-linkedin"></i>
-                    </a>
-                </div>
-
-                <div class="col-md-6">
-                        test
-                </div>
-
-                <div class="col-md-3">
-                    <p class="contact-us">Telephone: 020 7777 6666
-                    <br>
-                    Email: info@slipstreamdigital.co.uk
-                    <br>
-                    Address: Our place, London
-                    </p>
-
-                </div>
-            </div>
-        </div>
-
-            
-        
-
-    </div>
-    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/slipstream.js"></script>
-    <script type="text/javascript" src="js/picturefill.js"></script>
-
-    <div class="modal fade" id="andyModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
-                <h4 class="modal-title" id="myModalLabel">A-Dawg</h4>
-                </div>
-                <div class="modal-body">
-                    <p>Andy likes pancakes, toasting marshmellows and home cooked apple pie.</p>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="yuriModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
-                <h4 class="modal-title" id="myModalLabel">G-Dawg</h4>
-                </div>
-                <div class="modal-body">
-                    <p>Yuri likes pancakes, toasting marshmellows and home cooked apple pie.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="ianModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
-                <h4 class="modal-title" id="myModalLabel">C-Dawg</h4>
-                </div>
-                <div class="modal-body">
-                    <p>Ian likes pancakes, toasting marshmellows and home cooked apple pie.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    </body>
-</html>
-
+        <!--#include virtual="/components/html_footer.shtml" -->

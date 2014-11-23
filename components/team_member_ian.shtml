@@ -1,0 +1,13 @@
+<div class="thumbnail">
+    <img class="img-responsive" src="img/the_team/ian.jpg">
+</div>
+
+<div>
+    <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">+ Who is C-Dawg?</a>
+    </h4>
+    <div id="collapseThree" class="panel-collapse collapse">
+        <p></p>
+        <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
+    </div>
+</div>
