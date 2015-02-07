@@ -1,5 +1,5 @@
 <div class="thumbnail">
-    <a href="#" data-toggle="modal" data-target="#ianModal"><img class="img-responsive" src="img/the_team/ian.jpg"></a>
+    <a href="#" data-toggle="modal" data-target="#ianModal"><img class="img-responsive" src="assets/img/the_team/ian.jpg"></a>
         <div class="post-content" id="promo3Content">
             <h4 class="caption">Ian Causton</h4>
         </div>

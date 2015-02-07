@@ -1,0 +1,13 @@
+Our development team contains EPiServer developers, with a wealth of real world experience using the platform to bring client vision's to life.
+
+The EPiServer platform has proven to be robust, eidtorially easy to use and incredibly flexible. 
+A common question we are asked by prospective clients is, "will EPiServer allow us to do 'X'?". 
+Obviously, this often highlights the rather rigid nature of previous incumbents. 
+Built on top of the .net platform with a clearly seperated architecture there is nothing that technically cannot be achieved. 
+The variables that dictate what is possible or usually time and budget, for example implementing a fully responsive site is completely with the developers control. 
+
+Using layouts and views
+
+In its present form what sets EPiServer apart from other plaforms is it's 
+
+With the latest version of the platform MVC is now supported 

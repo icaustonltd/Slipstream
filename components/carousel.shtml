@@ -1,20 +1,20 @@
 <div class="panel-carousel">
                         
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
+        <ol class="carousel-indicators" style="float: right;">
           <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
           <li data-target="#carousel-example-generic" data-slide-to="1"></li>
           <li data-target="#carousel-example-generic" data-slide-to="2"></li>
           </ol>
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img class="img-responsive" src="img/header.png" alt="First Slide" />
+            <img class="img-responsive" src="assets/img/header.png" alt="First Slide" />
           </div>
           <div class="item">
-            <img class="img-responsive" src="img/header.png" alt="Second Slide" />
+            <img class="img-responsive" src="assets/img/header.png" alt="Second Slide" />
           </div>
           <div class="item">
-            <img class="img-responsive" src="img/header.png" alt="Third Slide" />
+            <img class="img-responsive" src="assets/img/header.png" alt="Third Slide" />
           </div>
         </div>
         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">

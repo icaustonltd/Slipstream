@@ -1,13 +1,13 @@
-<footer class="footer">
+        <footer class="footer">
 
             <div class="container">
 
                 <div class="row">
                     <div class="centered">
-                        <a class="btn socialMediaOne">
-                            &nbsp;
+                        <a href="https://twitter.com/SlipStreamDigi" target="_blank">
+                            <img src="/assets/img/Footer/twitter.svg" width="70" height="70" alt="twitter" />
                         </a>
-                        <a class="btn socialMediaTwo">
+                        <!--<a class="btn socialMediaTwo">
                             &nbsp;
                         </a>
                         <a class="btn socialMediaThree">
@@ -15,20 +15,27 @@
                         </a>
                         <a class="btn socialMediaFour">
                             &nbsp;
-                        </a>
+                        </a>-->
                     </div>
+                </div>
+
+
+                <div class="row">
+                        <div class="col-md-12" style="margin-top: 50px; height: 50px; background-color: #e57222;">
+                        </div>
                 </div>
 
             </div>
 
         </footer>
 
+        
 
     </div>
     <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/slipstream.js"></script>
-    <script type="text/javascript" src="js/picturefill.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/slipstream.js"></script>
+    <script type="text/javascript" src="assets/js/picturefill.js"></script>
 
     </body>
 </html>

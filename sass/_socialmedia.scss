@@ -1,0 +1,29 @@
+.socialMediaOne, .socialMediaTwo, .socialMediaThree, .socialMediaFour{
+    background: url(../img/sprites.png) no-repeat;
+    margin-right: 30px; 
+    margin-top: 30px;
+}
+
+.socialMediaOne{
+    background-position: 0 -1px ;
+    width: 69px;
+    height: 66px;
+}
+
+.socialMediaTwo{
+    background-position: -83px -1px ;
+    width: 69px;
+    height: 67px;
+}
+
+.socialMediaThree{
+    background-position: -244px 0;
+    width: 68px;
+    height: 69px;
+}
+
+.socialMediaFour{
+    background-position: -163px 0;
+    width: 68px;
+    height: 68px;
+}

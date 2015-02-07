@@ -1,13 +1,12 @@
-<div class="thumbnail">
-    <img class="img-responsive" src="img//the_team/yuri.jpg">
-</div>
-
-<div>
-    <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">+ Who is G-Dawg?</a>
-    </h4>
-    <div id="collapseTwo" class="panel-collapse collapse">
-        <p></p>
+<div class="promo-thumbnail">
+    <img class="img-responsive promo-image" src="assets/img/the_team/yuri.jpg">
+    
+    <div class="post-content" id="promo1Content" style="display: none;">
+        <h2>Content Header</h2>
         <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
+    </div>
+
+    <div class="pull-right promo-image-button">
+    	<a class="more-info" id="more-info" href="#">+</a>
     </div>
 </div>

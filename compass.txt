@@ -1,0 +1,2 @@
+cd C:\Development\beta.slipstreamdigital.co.uk
+compass watch

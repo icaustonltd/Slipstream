@@ -1,12 +1,21 @@
 <!doctype html>
 <html lang="en">
     <head>
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <meta charset="utf-8">
-            <title>Slipstream Digital</title>
-            <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-            <link rel="stylesheet" type="text/css" href="css/main.css">
-            <link href="css/font-awesome.css" type="text/css" rel="stylesheet">
-            <link href="css/docs.css" type="text/css" rel="stylesheet" >
-            <link href="css/bootstrap-social.css" type="text/css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <title>Slipstream Digital</title>
+        <link href="/assets/css/bootstrap.css" type="text/css" rel="stylesheet">
+        <link href="/assets/css/main.css" type="text/css" rel="stylesheet">
+        <link href="/assets/css/font-awesome.css" type="text/css" rel="stylesheet">
+        <link href="/assets/css/docs.css" type="text/css" rel="stylesheet">
+        <link href="/assets/css/bootstrap-social.css" type="text/css" rel="stylesheet">
+
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="/touch-icon-iphone.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/touch-icon-ipad.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/touch-icon-iphone-retina.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/touch-icon-ipad-retina.png">
+
     </head>

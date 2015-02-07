@@ -3,8 +3,37 @@
 
     <body>
     <div id="page">
-        
-        <!--#include virtual="/components/navigation.shtml" -->
+            
+        <nav id="menu" class="navbar navbar-default navbar-fixed-top">
+                
+            <div class="container">
+
+                <div class="navbar-header">
+                    <div class="button-group">
+                        <button type="button" class="btn btn-success navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                            Menu <span class="glyphicon glyphicon-chevron-down"></span>
+                        </button>
+                    </div>
+                </div>
+                <div id="navbar-collapse" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav col-sm-12 col-md-12">
+                        <li class="nav"><a href="/index.html">Home</a></li>
+                        <li class="nav"><a href="/the-team/index.html">The Team</a></li>
+                        <li class="nav active"><a href="/blog.html">Blog</a></li>
+                        <li class="nav"><a href="/contact-us.html">Contact Us</a></li>
+                    </ul>
+                    <!-- <form role="search" class="navbar-form navbar-right">
+                        <div class="form-group">
+                            <div class="panel-search">
+                                <input type="text" placeholder="Search" class="form-control">
+                            </div>    
+                        </div>
+                    </form> -->
+                </div>
+            
+            </div>
+
+        </nav>
 
         <section id="body" class="container">
             <section id="main" class="starter-template">
@@ -14,7 +43,7 @@
                 <div class="col-md-12">
                     
                     <div class="panel-carousel">
-                        <img class="img-responsive" src="img/header.png" alt="First Slide" />
+                        <a href="blog-example.html"><img class="img-responsive" src="assets/img/blog_header.jpg" alt="First Slide" /></a>
                     </div>
           
                 </div>
@@ -23,132 +52,31 @@
 
             <!-- start row two -->
             <div class="row">
-                
-                <div class="col-sm-4 col-md-4">
+                <div class="col-xs-12 col-sm-4 col-md-4">
 
-                    <div class="panel">
-                        <div class="panel-body">
-
-                            <!--#include virtual="/components/team_member_yuri_modal.shtml" -->   
-
-                        </div>
-                    </div>
+                    <!--#include virtual="/components/promo_blog.shtml" -->
 
                 </div>
 
-                <div class="col-sm-4 col-md-4">
-
-                    <div class="panel">
-                        <div class="panel-body">
-
-                            <!--#include virtual="/components/team_member_andy_modal.shtml" -->
-
-                        </div>
-                    </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    
+                    <!--#include virtual="/components/promo_blog_two.shtml" -->
 
                 </div>
 
-                <div class="col-sm-4 col-md-4">
-
-                    <div class="panel">
-                        <div class="panel-body">
-
-                            <!--#include virtual="/components/team_member_ian_modal.shtml" -->
-
-                        </div>
-                    </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
 
                 </div>
 
             </div>
             <!-- end row two -->
 
-            <!-- start row three -->
-            <div class="row">
-                <div class="col-sm-4 col-md-4">
-
-                    <div class="panel">
-                        <div class="panel-body">
-
-                            <h2>Find out why we rock and you suck!</h2>
-                            <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-md-4">
-                    
-                    <div class="panel">
-                        <div class="panel-body">
-
-                            <!--#include virtual="/components/thumbnail_two.shtml" -->
-
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-sm-4 col-md-4">
-
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-
-                            <!--#include virtual="/components/thumbnail_one.shtml" -->
-
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-            <!-- end row three -->
-
-            <!-- start row four -->
-            <div class="row">
-                
-                <div class="col-sm-4 col-md-4">
-
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-
-                            <!--#include virtual="/components/thumbnail_one.shtml" -->
-
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-sm-4 col-md-4">
-                    
-                    <div class="panel">
-                        <div class="panel-body">
-
-                            <!--#include virtual="/components/promo.shtml" -->
-
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-sm-4 col-md-4">
-
-                    <div class="panel">
-                        <div class="panel-body">
-
-                            <h2>Find out why we rock and you suck!</h2>
-                            <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <!-- end row four -->
-            
             </section>
 
         </section>
         <hr />
 
-        <!--#include virtual="/components/html_footer.shtml" -->
+        
+<!--#include virtual="/components/html_footer.shtml" -->
+
+

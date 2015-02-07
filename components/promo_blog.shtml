@@ -1,0 +1,10 @@
+<div class="panel panel-blog">
+	<img class="img-responsive" src="assets/img/blog_image.jpg">
+
+    <div class="panel-footer" style="background-color: #ffffff;">
+    	<p style="font-size: 1.8rem; text-transform: uppercase;">10 reasons why test and learn can benefit your organisation</p>
+    	<div class="panel-cta">
+    		<a href="blog/2015/01/05/10-reasons-why-test-and-learn-can-benefit-your-organisation.html">Read More</a>
+    	</div>
+    </div>
+</div>

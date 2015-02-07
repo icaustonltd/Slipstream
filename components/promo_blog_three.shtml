@@ -1,0 +1,10 @@
+<div class="panel panel-blog">
+	<img class="img-responsive" src="assets/img/blog_image_two.jpg">
+
+    <div class="panel-footer" style="background-color: #ffffff;">
+    	<p style="font-size: 1.8rem; text-transform: uppercase;">Experts in .net and Java</p>
+    	<div class="panel-cta">
+    		<a href="">Read More</a>
+    	</div>
+    </div>
+</div>

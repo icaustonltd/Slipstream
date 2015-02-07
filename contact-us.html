@@ -4,7 +4,29 @@
     <body>
     <div id="page">
         
-        <!--#include virtual="/components/navigation.shtml" -->
+        <nav id="menu" class="navbar navbar-default navbar-fixed-top">
+                
+            <div class="container">
+
+                <div class="navbar-header">
+                    <div class="button-group">
+                        <button type="button" class="btn btn-success navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                            Menu <span class="glyphicon glyphicon-chevron-down"></span>
+                        </button>
+                    </div>
+                </div>
+                <div id="navbar-collapse" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav col-sm-12 col-md-12">
+                        <li class="nav"><a href="/index.html">Home</a></li>
+                        <li class="nav"><a href="/the-team/index.html">The Team</a></li>
+                        <li class="nav"><a href="/blog.html">Blog</a></li>
+                        <li class="nav active"><a href="/contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            
+            </div>
+
+        </nav>
 
         <section id="body" class="container">
             <section id="main" class="starter-template">
@@ -14,7 +36,7 @@
                 <div class="col-md-12">
                     
                     <div class="panel-carousel">
-                        <img class="img-responsive" src="img/header.png" alt="First Slide" />
+                        <img class="img-responsive" src="assets/img/header.png" alt="First Slide" />
                     </div>
           
                 </div>
@@ -24,131 +46,86 @@
             <!-- start row two -->
             <div class="row">
                 
-                <div class="col-sm-4 col-md-4">
+                <div class="col-sm-12 col-md-6">
 
-                    <div class="panel">
-                        <div class="panel-body">
+                    <div class="panel panel-contact-us" style="background-color: #ffffff; border-bottom-width: 4px; border-bottom-color: #e57222; border-bottom-style: solid;">
+                        <div class="panel-body" style="min-height: 430px;">
 
-                            <!--#include virtual="/components/team_member_yuri_modal.shtml" -->   
+                            <div class="row" style="margin-bottom: 20px; display: flex; align-items: center;">
+                                <div class="col-md-2">
+                                    <div><a class="btn socialMediaThree" style="margin-top: 0px;">&nbsp;</a></div>
+                                </div>
+                                <div style="font-size: 1.7rem;" class="col-md-10">
+                                    <div><p><a href="mailto:INFO@SLIPSTREAMDIGITAL.CO.UK">INFO@SLIPSTREAMDIGITAL.CO.UK</a></p></div>
+                                </div>
+                            </div>
 
+                            <!--<div class="row" style="margin-bottom: 20px; display: flex; align-items: center;">
+                                <div class="col-md-2"><a class="btn socialMediaTwo" style="margin-top: 0px;">&nbsp;</a></div>
+                                <div style="font-size: 1.7rem;" class="col-md-10"><p>+44 (0) 123 456789</p></div>
+                            </div>-->
+
+                            <div class="row" style="margin-bottom: 20px; display: flex; align-items: center;">
+                                <div class="col-md-2"><a class="btn socialMediaOne" style="margin-top: 0px;">&nbsp;</a></div>
+                                <div style="font-size: 1.7rem;" class="col-md-10"><p>@SSD</p></div>
+                            </div>
+                            <div class="row" style="margin-bottom: 20px; display: flex; align-items: center;">
+                                <div class="col-md-2"><a class="btn socialMediaFour" style="margin-top: 0px;">&nbsp;</a></div>
+                                <div style="font-size: 1.6rem;" class="col-md-10"><p>LOVELY LOFT SPACE,<br/> 223 LEONARD STREET,<br/>LONDON, EC1</p></div>
+                            </div>
                         </div>
                     </div>
 
                 </div>
 
-                <div class="col-sm-4 col-md-4">
-
-                    <div class="panel">
-                        <div class="panel-body">
-
-                            <!--#include virtual="/components/team_member_andy_modal.shtml" -->
-
+                <div class="col-sm-12 col-md-6">
+                    <div class="panel panel-contact-us" style="background-color: #ffffff; border-bottom-width: 4px; border-bottom-color: #e57222; border-bottom-style: solid;">
+                        <div class="panel-body" style="min-height: 430px;">
+                            <div id="map-canvas"></div>
                         </div>
                     </div>
-
-                </div>
-
-                <div class="col-sm-4 col-md-4">
-
-                    <div class="panel">
-                        <div class="panel-body">
-
-                            <!--#include virtual="/components/team_member_ian_modal.shtml" -->
-
-                        </div>
-                    </div>
-
                 </div>
 
             </div>
             <!-- end row two -->
 
-            <!-- start row three -->
-            <div class="row">
-                <div class="col-sm-4 col-md-4">
-
-                    <div class="panel">
-                        <div class="panel-body">
-
-                            <h2>Find out why we rock and you suck!</h2>
-                            <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 col-md-4">
-                    
-                    <div class="panel">
-                        <div class="panel-body">
-
-                            <!--#include virtual="/components/thumbnail_two.shtml" -->
-
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-sm-4 col-md-4">
-
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-
-                            <!--#include virtual="/components/thumbnail_one.shtml" -->
-
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-            <!-- end row three -->
-
-            <!-- start row four -->
-            <div class="row">
-                
-                <div class="col-sm-4 col-md-4">
-
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-
-                            <!--#include virtual="/components/thumbnail_one.shtml" -->
-
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-sm-4 col-md-4">
-                    
-                    <div class="panel">
-                        <div class="panel-body">
-
-                            <!--#include virtual="/components/promo.shtml" -->
-
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-sm-4 col-md-4">
-
-                    <div class="panel">
-                        <div class="panel-body">
-
-                            <h2>Find out why we rock and you suck!</h2>
-                            <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <!-- end row four -->
-            
             </section>
 
         </section>
         <hr />
+
+        <script>
+            var map;
+            function initialize() {
+
+                var myLatlng = new google.maps.LatLng(51.5241755,-0.076292);
+
+                var mapOptions = {
+                    zoom: 17,
+                    center: myLatlng
+                };
+
+              map = new google.maps.Map(document.getElementById('map-canvas'),
+                  mapOptions);
+
+              var marker = new google.maps.Marker({
+                  position: myLatlng,
+                  map: map,
+                  title: 'Slipstream HQ'
+              });
+
+            }
+
+            function loadScript() {
+              var script = document.createElement('script');
+              script.type = 'text/javascript';
+              script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&' +
+                  'callback=initialize';
+              document.body.appendChild(script);
+            }
+
+            window.onload = loadScript;
+
+        </script>
 
         <!--#include virtual="/components/html_footer.shtml" -->

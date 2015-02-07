@@ -1,0 +1,27 @@
+.panel { background-color: #cccccc; }
+
+.panel-carousel { background-color: #ffffff; margin-bottom: 20px; }
+
+.panel-contact-us { background-color: #ffffff; }
+
+.panel-cta { text-transform: uppercase; background-color: #e57222; padding: 10px 0px 10px 20px; color: #ffffff;}
+
+.panel-cta a { color: #ffffff; font-weight: bold; }
+
+.panel-default { background: #3a3a3a; color: #fff; }
+
+.panel-quote { background-color: #ffffff; }
+
+@media (min-width: 992px) {
+  .panel-quote {
+    min-height: 274px;
+  }
+}
+
+.panel-quote > .panel-body > h2 { text-align: left; }
+
+.panel-quote > .panel-body > p { font-size: 1.8rem; }
+
+.panel-search { padding: 0px 20px 0px 0px; }
+
+.quote-author { font-size: 1.8rem; }

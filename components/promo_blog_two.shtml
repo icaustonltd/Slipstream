@@ -1,0 +1,10 @@
+<div class="panel panel-blog">
+    <img class="img-responsive" src="assets/img/blog_image.jpg">
+
+    <div class="panel-footer" style="background-color: #ffffff;">
+        <p style="font-size: 1.8rem; text-transform: uppercase;">Become an 'optimisation organisation' - part 1</p>
+        <div class="panel-cta">
+            <a href="blog/2015/01/23/how-to-make-your-company-an-optimisation-organisation-part-1.html">Read More</a>
+        </div>
+    </div>
+</div>

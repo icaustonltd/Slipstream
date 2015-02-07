@@ -1,5 +1,5 @@
 <div class="thumbnail">
-    <a href="#" data-toggle="modal" data-target="#yuriModal"><img class="img-responsive" src="img/the_team/yuri.jpg"></a>
+    <a href="#" data-toggle="modal" data-target="#yuriModal"><img class="img-responsive" src="assets/img/the_team/yuri.jpg"></a>
         <div class="post-content" id="promo1Content">
             <h4 class="caption">Yuri Gandamihardja</h4>
         </div>

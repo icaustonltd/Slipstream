@@ -1,0 +1,83 @@
+$font-stack: Helvetica, sans-serif;
+
+$primary-color: #e57222;
+
+@import 'fonts';
+
+@import 'basics';
+
+@import 'navbar';
+
+@import 'panel';
+
+@import 'promoimage';
+
+.btn-success { background-color: #e57222; }
+
+.contact-us { color: #fff; text-align: right; margin-top: 15px; }
+
+a { color: #000; }
+
+.promo-thumbnail {  
+    float:left;  
+    position:relative;
+} 
+
+.post-content {  
+    position: absolute; 
+    top: 0px;  
+    left: 0px;  
+    width: 100%;  
+    background-color: #ffffff;  
+    color: black;
+    margin: 0px;
+    padding:16px; 
+    height:100%; 
+}
+
+.post-content > h2
+{
+    text-align: left;
+}
+
+#map-canvas 
+{ 
+    height: 400px; 
+}
+
+@import 'socialmedia';
+
+
+.carousel-indicators {
+  text-align: right;
+  margin-left: -15%;
+}
+
+.carousel-indicators li {
+  border-color: #e57222;
+  background-color: #fff;
+}
+
+.carousel-indicators .active {
+  border-color: #e57222;
+  background-color: #e57222;
+}
+
+@media screen and (min-width: 768px)
+{
+    .carousel-indicators {
+      bottom: 10px;
+    }
+
+    .carousel-indicators li {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+  }
+
+  .carousel-indicators .active {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+  }
+}
