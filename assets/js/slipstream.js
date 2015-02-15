@@ -20,3 +20,6 @@ $.fn.carousel.defaults = {
   , pause: 'hover'
 }
 
+var images = ['team_member_yuri.gif', 'team_member_andy.gif', 'team_member_ian.gif'];
+
+$('<img src="/assets/img/the_team/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#team-promo');

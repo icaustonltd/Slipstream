@@ -1,0 +1,13 @@
+How does rem work - where do you set the master value?
+
+Add mobile menu icon
+
+What to do in iPad?
+
+Check real images on page when resized
+
+How to get all panels to line up vertically?
+
+Write CSS files to proper location
+
+Find bootstrap breakpoints

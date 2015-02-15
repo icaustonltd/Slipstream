@@ -12,12 +12,6 @@
 
 .panel-quote { background-color: #ffffff; }
 
-@media (min-width: 992px) {
-  .panel-quote {
-    min-height: 274px;
-  }
-}
-
 .panel-quote > .panel-body > h2 { text-align: left; }
 
 .panel-quote > .panel-body > p { font-size: 1.8rem; }
