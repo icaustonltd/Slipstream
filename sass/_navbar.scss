@@ -4,8 +4,6 @@
 
 .navbar-default .navbar-nav > li > a { color: #ffffff; font-size: 1.8rem; text-transform: uppercase; }
 
-.navbar-default .navbar-nav > li { border-right-width: 1px; border-right-color: #d0671f; border-right-style: solid; }
-
 .navbar-default .navbar-nav .active, .navbar-default .navbar-nav .active a { background-color: #ffffff; color: #e57222; }
 
 .navbar-default .navbar-nav .active, .navbar-default .navbar-nav .active a { background-color: #ffffff; color: #e57222; }
@@ -15,3 +13,12 @@
 .navbar-default .navbar-nav > li:hover { background-color: #dd5d02; color: #ffffff; }
 
 .navbar-default .navbar-nav > li:hover a:hover { background-color: #dd5d02; color: #ffffff; }
+
+@media (min-width: 992px) {
+	.navbar-default .navbar-nav > li { border-right-width: 1px; border-right-color: #d0671f; border-right-style: solid; }
+}
+
+@media (min-width: 768px)
+{
+	.navbar-default .navbar-nav > li { border-right-width: 1px; border-right-color: #d0671f; border-right-style: solid; }
+}

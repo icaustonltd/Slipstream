@@ -4,14 +4,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
         <title>Slipstream Digital</title>
-        <link href="/assets/css/bootstrap.css" type="text/css" rel="stylesheet">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+
         <link href="/assets/css/main.css" type="text/css" rel="stylesheet">
         <link href="/assets/css/font-awesome.css" type="text/css" rel="stylesheet">
-        <link href="/assets/css/docs.css" type="text/css" rel="stylesheet">
-        <link href="/assets/css/bootstrap-social.css" type="text/css" rel="stylesheet">
-
+        
         <script src="https://maps.googleapis.com/maps/api/js"></script>
 
+        <!-- Important Owl stylesheet -->
+        <link rel="stylesheet" href="/assets/css/owl.carousel.css">
+         
+        <!-- Default Theme -->
+        <link rel="stylesheet" href="/assets/css/owl.theme.css">
+         
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon" href="/touch-icon-iphone.png">
         <link rel="apple-touch-icon" sizes="76x76" href="/touch-icon-ipad.png">

@@ -18,6 +18,8 @@ $primary-color: #e57222;
 
 a { color: #000; }
 
+a:hover { color: #000; text-decoration: underline; }
+
 .promo-thumbnail {  
     float:left;  
     position:relative;
@@ -66,7 +68,7 @@ a { color: #000; }
 @media screen and (min-width: 768px)
 {
     .carousel-indicators {
-      bottom: 10px;
+      bottom: 5px;
     }
 
     .carousel-indicators li {

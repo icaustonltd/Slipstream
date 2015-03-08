@@ -1,8 +1,15 @@
-	<img class="img-responsive" src="assets/img/blog/blog_cta_3.gif" alt="Experts in optimisation">
+<div class="thumbnail promo-image text-center">
+	<!-- <a href="/blog/2015/01/05/10-reasons-why-test-and-learn-can-benefit-your-organisation.html"><img class="img-responsive" src="assets/img/blog/blog_cta_3.gif" alt="Experts in optimisation"></a> -->
+	<picture>
+		<!--[if IE 9]><video style="display: none;"><![endif]-->
+		<!-- desktop -->
+		<source srcset="assets/img/picture_fill/standard_panel_two.png, assets/img/picture_fill/standard_panel_two_retina.png 2x" media="(min-width: 992px)">
+		<!-- iPad -->
+		<source srcset="assets/img/picture_fill/standard_panel_three.png, assets/img/picture_fill/standard_panel_four_retina.png 2x" media="(min-width: 768px)">
+		<!-- mobile -->
+		<source srcset="assets/img/picture_fill/standard_panel_three.png, assets/img/picture_fill/standard_panel_five_retina.png 2x">
 
-    <!--<div class="panel-footer">
-    	<p>Experts in optimisation</p>
-    	<div class="panel-cta">
-    		<a href="">Read More</a>
-    	</div>
-    </div>-->
+		<!--[if IE 9]></video><![endif]-->
+		<img srcset="assets/img/picture_fill/standard_panel_five.png, assets/img/picture_fill/standard_panel.png 2x" alt="Experts in optimisation">
+	</picture>
+</div>

@@ -1,10 +1,3 @@
-<div class="panel panel-blog">
-	<img class="img-responsive" src="assets/img/blog/blog_cta_2.gif" alt="Experts in optimisation">
-
-    <!--<div class="panel-footer">
-    	<p>Experts in optimisation</p>
-    	<div class="panel-cta">
-    		<a href="">Read More</a>
-    	</div>
-    </div>-->
+<div class="thumbnail promo-image">
+	<a href="/blog/2015/01/23/how-to-make-your-company-an-optimisation-organisation-part-1.html"><img class="img-responsive" src="assets/img/blog/blog_cta_2.gif" alt="Experts in optimisation"></a>
 </div>

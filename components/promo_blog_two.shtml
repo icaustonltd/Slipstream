@@ -1,7 +1,7 @@
-<div class="panel panel-blog">
-    <img class="img-responsive" src="assets/img/blog/blog_cta_2.gif" alt="Become an 'optimisation organisation' - part 1">
+<div class="panel panel-blog" style="background-color: white;">
+    <img class="img-responsive" src="assets/img/blog/blog_cta_2.gif" alt="Become an 'optimisation organisation' - part 1" style="margin-right: auto; margin-left: auto;">
 
-    <div class="panel-footer">
+    <div class="panel-footer" style="border-top: 1px solid white; background-color: white;">
         <p>Become an 'optimisation organisation' - part 1</p>
         <div class="panel-cta">
             <a href="blog/2015/01/23/how-to-make-your-company-an-optimisation-organisation-part-1.html">Read More</a>

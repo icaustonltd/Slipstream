@@ -1,7 +1,7 @@
-<div class="panel panel-blog">
-	<img class="img-responsive" src="assets/img/blog/blog_cta_1.gif" alt="Become an 'optimisation organisation' - part 2">
+<div class="panel panel-blog" style="background-color: white;">
+	<img class="img-responsive" src="assets/img/blog/blog_cta_1.gif" alt="Become an 'optimisation organisation' - part 2" style="margin-right: auto; margin-left: auto;">
 
-    <div class="panel-footer">
+    <div class="panel-footer" style="border-top: 1px solid white; background-color: white;">
     	<p>Become an 'optimisation organisation' - part 2</p>
     	<div class="panel-cta">
     		<a href="blog/2015/01/05/10-reasons-why-test-and-learn-can-benefit-your-organisation.html">Read More</a>

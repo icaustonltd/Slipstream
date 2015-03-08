@@ -1,3 +1,9 @@
-<div class="panel promo-thumbnail">
-    <img class="img-responsive promo-image" src="assets/img/expertise/promo_umbraco.gif" alt="Umbraco" />
+<!-- <div class="panel promo-thumbnail promo-image"> -->
+
+<div class="panel promo-image">
+    <img class="img-responsive" src="assets/img/expertise/promo_umbraco.gif" alt="Umbraco" />
+    
+    <div class="pull-right promo-image-button">
+    	<span class="more-info">+</span>
+    </div>
 </div>

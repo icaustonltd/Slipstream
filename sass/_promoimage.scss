@@ -1,11 +1,13 @@
 
 .promo-image, .panel-quote, .post-content, .panel-blog { border-bottom-width: 4px; border-bottom-color: #e57222; border-bottom-style: solid; }
 
+.promo-image { position: relative; background-color: white; }
+
+.promo-image > img { margin-right: auto; margin-left: auto; }
+
 .promo-image-button { position: absolute; bottom: 0px; right: 0px; background-color: #e57222; padding: 16px 25px 16px 25px; }
 
-.promo-image-button > a { font-weight: bold; color: #ffffff; font-size: 20px; }
-
-.promo-image-button > a:hover { font-weight: bold; color: #ffffff; font-size: 20px; text-decoration: none; }
+.promo-image-button .more-info { font-weight: bold; color: #ffffff; font-size: 20px; }
 
 .panel-blog .panel-footer { background-color: #ffffff; }
 

@@ -1,3 +1,7 @@
-<div class="panel promo-thumbnail">
-    <img class="img-responsive promo-image" src="assets/img/expertise/promo_sitecore.gif" alt="Sitecore" />
+<div class="panel promo-image">
+    <img class="img-responsive" src="assets/img/expertise/promo_sitecore.gif" alt="Sitecore"/>
+    
+    <div class="pull-right promo-image-button">
+    	<span href="" class="more-info">+</span>
+    </div>
 </div>
