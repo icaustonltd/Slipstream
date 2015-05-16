@@ -1,5 +1,10 @@
 <div class="panel panel-quote">
     <div class="panel-body">
-		<h2>We don't just do development - we also support you with your marketing optimisation strategy.</h2> 
+		<h2>We don't just optimise your conversion rates. We also improve your code to help deliver the best experience for your customers.</h2>
+
+		<div class="panel-cta">
+        	<a href="/what-we-do.html">Read more</a>	
+        </div>
+
     </div>
 </div>

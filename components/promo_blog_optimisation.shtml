@@ -3,13 +3,13 @@
 	<picture>
 		<!--[if IE 9]><video style="display: none;"><![endif]-->
 		<!-- desktop -->
-		<source srcset="assets/img/picture_fill/standard_panel_two.png, assets/img/picture_fill/standard_panel_two_retina.png 2x" media="(min-width: 992px)">
+		<source srcset="assets/img/picture_fill/standard_panel_two.png, assets/img/picture_fill/standard_panel_three.png 2x" media="(min-width: 992px)">
 		<!-- iPad -->
 		<source srcset="assets/img/picture_fill/standard_panel_three.png, assets/img/picture_fill/standard_panel_four_retina.png 2x" media="(min-width: 768px)">
 		<!-- mobile -->
 		<source srcset="assets/img/picture_fill/standard_panel_three.png, assets/img/picture_fill/standard_panel_five_retina.png 2x">
 
 		<!--[if IE 9]></video><![endif]-->
-		<img srcset="assets/img/picture_fill/standard_panel_five.png, assets/img/picture_fill/standard_panel.png 2x" alt="Experts in optimisation">
+		<img style="max-width:100%; display:block" srcset="assets/img/picture_fill/standard_panel_five.png, assets/img/picture_fill/standard_panel.png 2x" alt="Experts in optimisation">
 	</picture>
 </div>
